@@ -18,7 +18,7 @@
    - **Region**: Choose closest to your users
    - **Plan**: Free (for testing) or Paid (for production)
 4. Click **"Create Database"**
-5. **Save the connection details** - you'll need the `External Database URL`
+5. **Save the connection details** - using the `External Database URL`
 
 ### **2. Deploy FastAPI Application**
 

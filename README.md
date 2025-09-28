@@ -202,3 +202,4 @@ Every protected route expects `Authorization: Bearer <access_token>` header.
 - Implement pagination and sorting on list endpoints.
 - Introduce background jobs for stale booking cleanup.
 - Plug in metrics/monitoring (OpenTelemetry, Prometheus) for production observability.
+- Add email verification and OTP flow using SMTP provider credentials (e.g. Google App Password) to harden account access once deployed.
