@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env.local
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# SQLite / test databases
+*.db
+*.sqlite3
+
+# Coverage
+htmlcov/
+.coverage*
+
+# Logs
+*.log
+
+# Alembic cache
+alembic.ini.bak
+
+# OS files
+.DS_Store
+Thumbs.db

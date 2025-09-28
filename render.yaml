@@ -1,0 +1,8 @@
+# Render Deployment Configuration
+# This file tells Render how to build and run your application
+
+# Build Command (installs dependencies and runs database migrations)
+pip install -r requirements.txt && python -c "import alembic.config; alembic.config.main(['upgrade', 'head'])"
+
+# Start Command (runs the FastAPI application)
+uvicorn app.main:app --host 0.0.0.0 --port $PORT
